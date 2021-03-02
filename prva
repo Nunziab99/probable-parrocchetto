@@ -1,0 +1,16 @@
+let formacorpo1
+
+function preload () {
+corpo1 = loadModel('Forma corpo 1.obj');
+}  
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  box (100);
+  translate (-200,0,0)
+  model (formacorpo1);
+  }
